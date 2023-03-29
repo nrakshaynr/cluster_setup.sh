@@ -12,7 +12,6 @@ echo "    Minimum requirement - Any"
 echo "    k8s_install.sh worker"
 echo "--------------------------------------------------------------------------"
 }
-
 # Check if the machine Linux and Distor is Ubuntu or RHEL(RedHat)
 UNAME=$(uname | tr "[:upper:]" "[:lower:]")
 # If Linux, try to determine specific distribution
